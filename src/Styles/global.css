@@ -11,7 +11,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%; /* Ensures full width */
+  width: 100%; 
   z-index: 1000;
   margin-bottom: 100px;
 }
@@ -19,11 +19,11 @@
 /* Brand Name in the top-left corner */
 .brand-name {
   position: absolute;
-  top: 20px;  /* Adjust to position from the top */
-  left: 20px; /* Adjust to position from the left */
-  font-size: 30px; /* Adjust as needed */
+  top: 20px;  
+  left: 20px; 
+  font-size: 30px; 
   font-weight: bold;
-  color: #003f3f; /* Adjust the color to your brand color */
+  color: #003f3f; 
   cursor: pointer;
 }
 
@@ -57,10 +57,10 @@
 /* The container for the button that pushes it to the right with added margin */
 .header-btn-container {
   display: flex;
-  justify-content: flex-end; /* This will push the button to the far right */
+  justify-content: flex-end; 
   width: 100%;
   margin-top: -48px;
-  padding-right: 30px; /* Adds space between the button and right edge */
+  padding-right: 30px; 
 }
 
 .button {
@@ -91,7 +91,7 @@
 .hero-container {
   margin-top: "10px";
   display: flex;
-  flex-direction: column; /* ✅ Stack elements vertically */
+  flex-direction: column; 
   align-items: center;
   text-align: center;
   max-width: 800px;
@@ -100,7 +100,7 @@
 
 .hero-buttons {
   display: flex;
-  gap: 20px; /* Adds space between the buttons */
+  gap: 20px; 
   justify-content: center;
   margin-bottom: 15px;
 }
@@ -117,16 +117,16 @@
 }
 
 .hero-container h1{
-  font-size: 3.2rem; /* Large font size for "100+" */
+  font-size: 3.2rem; 
   font-weight: bold;
   color: black;
-  margin: 0; /* Remove default margin */
+  margin: 0; 
 }
 .hero-container span{
-  font-size: 3.2rem; /* Large font size for "100+" */
+  font-size: 3.2rem; 
   font-weight: bold;
   color:#203E43 ;
-  margin: 0; /* Remove default margin */
+  margin: 0; 
 }
 
 .hero-btn {
@@ -163,9 +163,9 @@
 }
 
 .image-grid {
-  margin-top: 0px; /* ✅ Space below rating section */
+  margin-top: 0px; 
   display: flex;
-  gap: 55px; /* ✅ Space between images */
+  gap: 55px; 
   align-items: flex-end;
 }
 
@@ -207,8 +207,8 @@
 
 .image-box1 .text-container {
   position: absolute;
-  bottom: 10px; /* Adjust this value to move text higher or lower */
-  left: 10px; /* Adjust this value to move text right or left */
+  bottom: 10px; 
+  left: 10px; 
   color: white;
   text-align: left;
 }
@@ -241,25 +241,25 @@
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   display: flex;
-  flex-direction: column; /* Stack children vertically */
+  flex-direction: column; 
   align-items: center;
   justify-content: center;
   overflow: hidden;
   padding: 10px;
 }
 .image-box2 h1 {
-  font-size: 2.2rem; /* Large font size for "100+" */
+  font-size: 2.2rem; 
   font-weight: bold;
   color: white;
-  margin: 0; /* Remove default margin */
+  margin: 0; 
 }
 
 .image-box2 p {
-  font-size: 1.2rem; /* Smaller than h1 but still readable */
+  font-size: 1.2rem; 
   font-weight: 500;
   color: white;
-  margin-top: 5px; /* Adds spacing between h1 and p */
-  text-align: center; /* Centers the text */
+  margin-top: 5px; 
+  text-align: center; 
 }
 
 
@@ -277,25 +277,25 @@
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   display: flex;
-  flex-direction: column; /* Stack children vertically */
+  flex-direction: column; 
   align-items: center;
   justify-content: center;
   overflow: hidden;
   padding: 10px;
 }
 .image-box2i h1 {
-  font-size: 2.2rem; /* Large font size for "100+" */
+  font-size: 2.2rem; 
   font-weight: bold;
   color: black;
-  margin: 0; /* Remove default margin */
+  margin: 0; 
 }
 
 .image-box2i p {
-  font-size: 1.2rem; /* Smaller than h1 but still readable */
+  font-size: 1.2rem; 
   font-weight: 500;
   color: black;
-  margin-top: 5px; /* Adds spacing between h1 and p */
-  text-align: center; /* Centers the text */
+  margin-top: 5px; 
+  text-align: center; 
 }
 
 
@@ -310,18 +310,18 @@
 
 .image-box3 {
   width: 200px;
-  height: 250px; /* Increase height to accommodate icons better */
+  height: 250px; 
   background: white;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Align content to the left */
+  align-items: flex-start;
   justify-content: center;
   overflow: hidden;
   padding: 10px;
-  position: relative; /* Ensure icons are positioned correctly inside the box */
-  text-align: left; /* Align text to the left */
+  position: relative; 
+  text-align: left; 
 }
 
 .image-box3 h2 {
@@ -355,7 +355,7 @@
   position: absolute;
   top: 10px;
   left: 10px;
-  width: calc(100% - 20px); /* Adjust width to fit both icons */
+  width: calc(100% - 20px); 
   display: flex;
   justify-content: space-between;
 }
@@ -363,22 +363,22 @@
 
 /* Styling for the left icon */
 .icon-container .icon-left {
-  font-size: 22px; /* Increase icon size */
-  color: black; /* Icon color */
-  background-color: #e0ffc6; /* Background color */
-  border-radius: 10px; /* Rounded corners */
-  padding: 8px 12px; /* Adjust the size of the box, add padding horizontally */
-  cursor: pointer; /* Make icons clickable */
+  font-size: 22px; 
+  color: black; 
+  background-color: #e0ffc6; 
+  border-radius: 10px; 
+  padding: 8px 12px; 
+  cursor: pointer; 
   display: flex;
   justify-content: center;
-  align-items: center; /* Center the icon inside the box */
+  align-items: center; 
 }
 
 /* Styling for the right icon */
 .icon-container .icon-right {
-  font-size: 22px; /* Increase icon size */
-  color: #8f8888; /* Icon color */
-  cursor: pointer; /* Make icons clickable */
+  font-size: 22px; 
+  color: #8f8888; 
+  cursor: pointer; 
 }
 
 
@@ -434,10 +434,10 @@
   flex: 1 1 calc(33.33% - 20px);
   height: auto;
   display: flex;
-  flex-direction: column;  /* Align items vertically */
-  align-items: center; /* Center align text and icon */
+  flex-direction: column;  
+  align-items: center; 
   padding: 20px;
-  text-align: center; /* Center align text */
+  text-align: center; 
   border-radius: 10px;
   background-color: #08444fe1;
   margin: 15px 0;
@@ -478,40 +478,39 @@
   color: white;
 }
 .wave-icon {
-  border: 2px solid black; /* Adds a black border */
-  border-radius: 50%; /* Makes it a circle */
-  padding: 8px; /* Adds space around the icon */
-  color: black; /* Keeps the icon color black */
-  display: inline-block; /* Ensures it's aligned as an inline element */
+  border: 2px solid black; 
+  border-radius: 50%; 
+  padding: 8px; 
+  color: black; 
+  display: inline-block; 
   margin-right:600px;
   margin-top: 50px;
 }
 .green-icon{
-  font-size: 22px; /* Icon size */
-  background-color: #e0ffc6; /* Icon color */
-  border: 2px solid #e0ffc6; /* Black border */
-  border-radius: 50%; /* Makes the shape a perfect circle */
-  width: 18px; /* Set width and height to make the circle */
-  height: 18px; /* Same as width for a perfect circle */
-  padding: 6px; /* Adjust padding to center the icon properly */
+  font-size: 22px; 
+  background-color: #e0ffc6; 
+  border: 2px solid #e0ffc6; 
+  border-radius: 50%; 
+  width: 18px; 
+  height: 18px; 
+  padding: 6px; 
   display: flex;
-  justify-content: center; /* Centers the icon horizontally */
-  align-items: center; /* Centers the icon vertically */
-  cursor: pointer; /* Makes the icon clickable */
+  justify-content: center;
+  align-items: center; 
+  cursor: pointer;
   margin-left:600px;
 }
 .up-icon{
-  font-size: 15px; /* Icon size */
-  background-color: #1a3c42; /* Icon color */
-  border: 2px solid #112e33; /* Black border */
-  border-radius: 50%; /* Makes the shape a perfect circle */
-  width: 20px; /* Set width and height to make the circle */
-  height: 20px; /* Same as width for a perfect circle */
-  padding: 6px; /* Adjust padding to center the icon properly */
+  font-size: 15px; 
+  background-color: #1a3c42; 
+  border: 2px solid #112e33; 
+  border-radius: 50%; 
+  width: 20px; 
+  height: 20px; 
   display: flex;
-  justify-content: center; /* Centers the icon horizontally */
-  align-items: center; /* Centers the icon vertically */
-  cursor: pointer; /* Makes the icon clickable */
+  justify-content: center; 
+  align-items: center; 
+  cursor: pointer; 
   margin-right:600px;
   margin-top: 50px;
 }
@@ -530,3 +529,5 @@
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
+

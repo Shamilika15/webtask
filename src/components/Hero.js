@@ -33,6 +33,17 @@ const Hero = () => {
           further.
         </p>
 
+        {/*  <HiOutlineSparkles className="up-icon" size={15} color="white" />
+          <FaWater className="wave-icon" size={25} color="black" />
+          <GoArrowUpRight className="wave-icon" size={25} color="black" />
+          <IoDocumentTextOutline
+            className="green-icon"
+            size={25}
+            color="black"
+          />
+
+          <BiBarChart className="green-icon" size={25} color="black" /> 
+          */}
         <div className="hero-buttons">
           <button className="hero-btn">Get Started</button>
           <button className="hero-btn">Try Demo</button>
@@ -50,7 +61,10 @@ const Hero = () => {
                 />
               }
               fullSymbol={
-                <FontAwesomeIcon icon={faStar} style={{ color: '#FFD700' }} />
+                <FontAwesomeIcon
+                  icon={faStar}
+                  style={{ color: '#FFD700', height: '30px' }}
+                />
               }
               fractions={2}
               onChange={(value) => setRating(value)}

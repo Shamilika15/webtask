@@ -8,67 +8,37 @@ import { GoArrowUpRight } from 'react-icons/go';
 function MainSection() {
   const services = [
     {
-      icon: (
-        <MdStars
-          size={40}
-          className="icon-lg" // Replaced inline styles with CSS class
-        />
-      ),
+      icon: <MdStars size={40} className="icon-lg" />,
       title: 'Production and Assembly',
       description:
         'Details on production processes, assembly, capacity, and product types.',
     },
     {
-      icon: (
-        <GiCube
-          size={40}
-          className="icon-lg" // Replaced inline styles with CSS class
-        />
-      ),
+      icon: <GiCube size={40} className="icon-lg" />,
       title: 'Custom Manufacturing',
       description:
         'Custom product creation with design and customization options.',
     },
     {
-      icon: (
-        <FaWrench
-          size={40}
-          className="icon-lg" // Replaced inline styles with CSS class
-        />
-      ),
+      icon: <FaWrench size={40} className="icon-lg" />,
       title: 'Quality Control',
       description:
         'Procedures and systems in place to ensure high product quality.',
     },
     {
-      icon: (
-        <GiShield
-          size={40}
-          className="icon-lg" // Replaced inline styles with CSS class
-        />
-      ),
+      icon: <GiShield size={40} className="icon-lg" />,
       title: 'Technology and Innovation',
       description:
         'Details on the latest manufacturing technologies and ongoing innovations.',
     },
     {
-      icon: (
-        <FaBox
-          size={40}
-          className="icon-lg" // Replaced inline styles with CSS class
-        />
-      ),
+      icon: <FaBox size={40} className="icon-lg" />,
       title: 'Packaging and Logistics',
       description:
         'Packaging and logistics for shipping to customers and distributors.',
     },
     {
-      icon: (
-        <MdBarChart
-          size={40}
-          className="icon-lg" // Replaced inline styles with CSS class
-        />
-      ),
+      icon: <MdBarChart size={40} className="icon-lg" />,
       title: 'Consulting & Market Research',
       description:
         'Services to help companies understand market needs and provide strategic advice.',
@@ -87,7 +57,7 @@ function MainSection() {
         {services.map((service, index) => (
           <div key={index} className="box1">
             <div className="up-arrow">
-              <GoArrowUpRight size={20} /> {/* No need for inline style */}
+              <GoArrowUpRight size={20} />
             </div>
             {service.icon}
             <h2>{service.title}</h2>
